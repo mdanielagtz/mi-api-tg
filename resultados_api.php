@@ -39,7 +39,7 @@ function httpPost(string $url, array $body, array $headers = []): array
     @curl_close($ch);
  
     return [
-        "status" => $httpCode,
+        "status" => $httpCode   ,
         "data"   => json_decode($response, true),
         "raw"    => $response,
     ];
@@ -109,6 +109,15 @@ foreach (GUIAS as $guia) {
  
     $status = $rastreoResponse["status"];
     $data   = $rastreoResponse["data"];
+
+//     if ($guia === "SCA00344525") {
+//     echo PHP_EOL;
+//     echo "===== DEBUG SCA00344525 =====" . PHP_EOL;
+
+//     var_dump($data["ultimo_estado"]);
+
+//     exit;
+// }
  
     if ($status === 200) {
         $totalEstados = count($data["estados"] ?? []);
@@ -128,7 +137,8 @@ foreach (GUIAS as $guia) {
 }
  
 echo PHP_EOL;
- 
+
+
 // =============================================================================
 // GUARDAR RESULTADOS EN JSON
 // =============================================================================

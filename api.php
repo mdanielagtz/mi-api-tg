@@ -160,6 +160,7 @@ function handleRastreo(): void
     
     // ── PASO 3: Filtrar historial hasta el estado objetivo ────────────────────
     $estadosFiltrados = filtrarEstados($data['estados'] ?? [], $estadoObjetivo);
+
  
     // ultimo_estado = último elemento del historial ya filtrado
     $ultimoEstado = !empty($estadosFiltrados)

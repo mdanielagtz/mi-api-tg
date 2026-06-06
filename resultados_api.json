@@ -1,5 +1,5 @@
 {
-    "generado_en": "06-06-2026 05:12:47",
+    "generado_en": "06-06-2026 06:57:48",
     "api_url": "https:\/\/mi-api-tg-production.up.railway.app",
     "ApiToken": {
         "endpoint": "https:\/\/mi-api-tg-production.up.railway.app\/api.php?action=login",
@@ -10,9 +10,9 @@
         },
         "http_status": 200,
         "respuesta": {
-            "token": "eyJ1c3IiOiJldmFsdWFkb3IiLCJpYXQiOjE3ODA3MjI3NjQsImV4cCI6MTc4MDcyNjM2NH0=.2af64c076a5214c201da701e217267b6361ef0431fd28f09ab03ba903430ef1b",
+            "token": "eyJ1c3IiOiJldmFsdWFkb3IiLCJpYXQiOjE3ODA3MjkwNjUsImV4cCI6MTc4MDczMjY2NX0=.f582724e6f65958b1844ed1ecc36c0cd34d9b733c553914713c3f4be3f797513",
             "tipo": "Bearer",
-            "emitido": "06-06-2026 05:12:44",
+            "emitido": "06-06-2026 06:57:45",
             "expira_en": "3600 segundos (60 minutos)",
             "uso": "Agrega este token en el header Authorization: Bearer {token} para consumir ?action=rastreo"
         }
@@ -31,16 +31,15 @@
                 "servicio": "Rastreo : Nacional y Pretalones",
                 "ultimo_estado": [
                     {
-                        "estado": "08",
+                        "estado": "EMBARQUE ENTREGADO PARCIALMENT",
                         "sucursal": "GUADALAJARA, JAL.",
-                        "referencia": "XXXXXXXXXXX",
-                        "entrega": "EMBARQUE ENTREGADO",
-                        "fecha": "JUEVES 14 DE MARZO DEL 2024 14:00 hrs.",
-                        "fecha_sin_dia": "14 DE MARZO DEL 2024 14:00 hrs.",
-                        "fecha_corta": "14\/03\/2024",
+                        "fecha": "LUNES 11 DE MARZO DEL 2024 14:00 hrs.",
+                        "fecha_sin_dia": "11 DE MARZO DEL 2024 14:00 hrs.",
+                        "fecha_corta": "11\/03\/2024",
                         "hora": "14:00",
-                        "recibio": "ALMACEN",
-                        "estadoembarque": "07"
+                        "entrega": "EMBARQUE ENTREGADO PARCIALMENT",
+                        "recibio": "Almacen",
+                        "estadoembarque": "08"
                     }
                 ],
                 "detalle": [
@@ -141,7 +140,7 @@
                         "estadoembarque": "06"
                     },
                     {
-                        "estado": "08",
+                        "estado": "EMBARQUE ENTREGADO PARCIALMENT",
                         "sucursal": "GUADALAJARA, JAL.",
                         "fecha": "LUNES 11 DE MARZO DEL 2024 14:00 hrs.",
                         "fecha_sin_dia": "11 DE MARZO DEL 2024 14:00 hrs.",
@@ -171,16 +170,15 @@
                 "servicio": "Rastreo : Nacional y Pretalones",
                 "ultimo_estado": [
                     {
-                        "estado": "CA",
+                        "estado": "DOMICILIO VISITADO CLIENTE NO RECIBIÓ EAD",
                         "sucursal": "TORREON, COAH. ESTADIO",
-                        "referencia": "XXXXXXXacta",
-                        "entrega": "EMBARQUE ENTREGADO",
-                        "fecha": "VIERNES 15 DE MAYO DEL 2026 10:46 hrs.",
-                        "fecha_sin_dia": "15 DE MAYO DEL 2026 10:46 hrs.",
-                        "fecha_corta": "15\/05\/2026",
-                        "hora": "10:46",
-                        "recibio": "Victor Medina",
-                        "estadoembarque": "07"
+                        "fecha": "JUEVES 14 DE MAYO DEL 2026 18:05 hrs.",
+                        "fecha_sin_dia": "14 DE MAYO DEL 2026 18:05 hrs.",
+                        "fecha_corta": "14\/05\/2026",
+                        "hora": "18:05",
+                        "entrega": "DOMICILIO VISITADO CLIENTE NO RECIBIÓ EAD",
+                        "recibio": "ESTADO REGISTRADO DESDE ULTIMA MILLA",
+                        "estadoembarque": "CA"
                     }
                 ],
                 "detalle": [
@@ -314,7 +312,7 @@
                         "estadoembarque": "06"
                     },
                     {
-                        "estado": "CA",
+                        "estado": "DOMICILIO VISITADO CLIENTE NO RECIBIÓ EAD",
                         "sucursal": "TORREON, COAH. ESTADIO",
                         "fecha": "JUEVES 14 DE MAYO DEL 2026 18:05 hrs.",
                         "fecha_sin_dia": "14 DE MAYO DEL 2026 18:05 hrs.",
@@ -344,16 +342,15 @@
                 "servicio": "Rastreo : Nacional y Pretalones",
                 "ultimo_estado": [
                     {
-                        "estado": "D5",
-                        "sucursal": "PUEBLA, PUE.",
-                        "referencia": "XXXXXXX0000",
-                        "entrega": "CREDENCIAL ELECTOR",
-                        "fecha": "LUNES 05 DE AGOSTO DEL 2024 18:26 hrs.",
-                        "fecha_sin_dia": "05 DE AGOSTO DEL 2024 18:26 hrs.",
-                        "fecha_corta": "05\/08\/2024",
-                        "hora": "18:26",
-                        "recibio": "Maricruz Gordillo",
-                        "estadoembarque": "07"
+                        "estado": "AFECTACION POR FERRY",
+                        "sucursal": "MATRIZ",
+                        "fecha": "MIÉRCOLES 31 DE JULIO DEL 2024 11:27 hrs.",
+                        "fecha_sin_dia": "31 DE JULIO DEL 2024 11:27 hrs.",
+                        "fecha_corta": "31\/07\/2024",
+                        "hora": "11:27",
+                        "entrega": "AFECTACION POR FERRY",
+                        "recibio": "AFECTACION POR FERRY",
+                        "estadoembarque": "D5"
                     }
                 ],
                 "detalle": [
@@ -432,7 +429,7 @@
                         "estadoembarque": "03"
                     },
                     {
-                        "estado": "D5",
+                        "estado": "AFECTACION POR FERRY",
                         "sucursal": "MATRIZ",
                         "fecha": "MIÉRCOLES 31 DE JULIO DEL 2024 11:27 hrs.",
                         "fecha_sin_dia": "31 DE JULIO DEL 2024 11:27 hrs.",
@@ -463,17 +460,12 @@
                 "ultimo_estado": [
                     {
                         "estado": "CANCELADO",
-                        "sucursal": "HERMOSILLO, SON.",
-                        "referencia": "HMS00023037",
-                        "entrega": "TRANSITO ENTRE SUCURSALES",
-                        "fecha": "MARTES 31 DE MAYO DEL 2022 18:42 hrs.",
-                        "fecha_sin_dia": "31 DE MAYO DEL 2022 18:42 hrs.",
-                        "fecha_corta": "31\/05\/2022",
-                        "hora": "18:42",
-                        "recibio": "SE BORRO LA SALIDA DEL VIAJE (GV)",
-                        "estadoembarque": "03",
-                        "entrega_estimada_corta": "",
-                        "entrega_estimada": ""
+                        "sucursal": " ",
+                        "fecha": "JUEVES    21  DE JULIO      DEL 2022",
+                        "fecha_sin_dia": "21  DE JULIO      DEL 2022",
+                        "fecha_corta": "21\/07\/2022",
+                        "hora": null,
+                        "entrega": "CANCELADA"
                     }
                 ],
                 "detalle": [
