@@ -162,12 +162,9 @@ function handleRastreo(): void
     $estadosFiltrados = filtrarEstados($data['estados'] ?? [], $estadoObjetivo);
  
     // ultimo_estado = último elemento del historial ya filtrado
-$ultimoEstado = !empty($estadosFiltrados)
+    $ultimoEstado = !empty($estadosFiltrados)
     ? end($estadosFiltrados)
     : [];
-
-$ultimoEstado['estado']         = $estadoObjetivo;
-$ultimoEstado['estadoembarque'] = $estadoObjetivo;
  
     // ── Construir y devolver respuesta ────────────────────────────────────────
     $respuesta = array_merge($data, [
