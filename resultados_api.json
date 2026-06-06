@@ -1,0 +1,747 @@
+{
+    "generado_en": "06-06-2026 04:37:11",
+    "api_url": "https:\/\/mi-api-tg-production.up.railway.app",
+    "ApiToken": {
+        "endpoint": "https:\/\/mi-api-tg-production.up.railway.app\/api.php?action=login",
+        "metodo": "POST",
+        "body_enviado": {
+            "usuario": "evaluador",
+            "password": "tresguerras2026"
+        },
+        "http_status": 200,
+        "respuesta": {
+            "token": "eyJ1c3IiOiJldmFsdWFkb3IiLCJpYXQiOjE3ODA3MjA2MjcsImV4cCI6MTc4MDcyNDIyN30=.7c4a6597f667882a20445d82ebe4d53c11b53f376ab81920d1c6ffe78ab0b096",
+            "tipo": "Bearer",
+            "emitido": "06-06-2026 04:37:07",
+            "expira_en": "3600 segundos (60 minutos)",
+            "uso": "Agrega este token en el header Authorization: Bearer {token} para consumir ?action=rastreo"
+        }
+    },
+    "ApiRastreo": {
+        "SCA00344525": {
+            "endpoint": "https:\/\/mi-api-tg-production.up.railway.app\/api.php?action=rastreo",
+            "metodo": "POST",
+            "body_enviado": {
+                "guia": "SCA00344525"
+            },
+            "http_status": 200,
+            "respuesta": {
+                "rastrear": "SCA00344525",
+                "talon": "SCA00344525",
+                "servicio": "Rastreo : Nacional y Pretalones",
+                "ultimo_estado": [
+                    {
+                        "estado": "08",
+                        "sucursal": "GUADALAJARA, JAL.",
+                        "referencia": "XXXXXXXXXXX",
+                        "entrega": "EMBARQUE ENTREGADO",
+                        "fecha": "JUEVES 14 DE MARZO DEL 2024 14:00 hrs.",
+                        "fecha_sin_dia": "14 DE MARZO DEL 2024 14:00 hrs.",
+                        "fecha_corta": "14\/03\/2024",
+                        "hora": "14:00",
+                        "recibio": "ALMACEN",
+                        "estadoembarque": "07"
+                    }
+                ],
+                "detalle": [
+                    {
+                        "TALON": "SCA00344525",
+                        "FECHA_DE_EMBARQUE": "2024-03-07",
+                        "PESO": "1464",
+                        "PIEZAS": "2",
+                        "ESTADO_TALON": "",
+                        "RECIBIO": "Almacen    ",
+                        "ORDEN_DOCUMENTACION": "39508799",
+                        "ORIGEN": "TERMINAL SANTA CATARINA, NL.",
+                        "DESTINO": "TONALA, JAL.",
+                        "BANDERA_RECOLECCION": "N",
+                        "BANDERA_EAD": "S",
+                        "FACTURA": "00077238870",
+                        "TALON_COMPLEMENTARIO": null,
+                        "entrega_estimada_corta": "08\/03\/2024",
+                        "entrega_estimada": "VIERNES 08 DE MARZO DEL 2024"
+                    }
+                ],
+                "estados": [
+                    {
+                        "estado": "RECIBIDO EN BODEGA EMBARQUES",
+                        "sucursal": "CAPTADORA SANTA CATARINA, N.L.",
+                        "fecha": "JUEVES 07 DE MARZO DEL 2024 16:08 hrs.",
+                        "fecha_sin_dia": "07 DE MARZO DEL 2024 16:08 hrs.",
+                        "fecha_corta": "07\/03\/2024",
+                        "hora": "16:08",
+                        "entrega": "RECIBIDO EN BODEGA EMBARQUES",
+                        "recibio": "XX",
+                        "estadoembarque": "01"
+                    },
+                    {
+                        "estado": "DESPACHADO A SUCURSAL",
+                        "sucursal": "CAPTADORA SANTA CATARINA, N.L.",
+                        "fecha": "JUEVES 07 DE MARZO DEL 2024 18:29 hrs.",
+                        "fecha_sin_dia": "07 DE MARZO DEL 2024 18:29 hrs.",
+                        "fecha_corta": "07\/03\/2024",
+                        "hora": "18:29",
+                        "entrega": "DESPACHADO A SUCURSAL",
+                        "recibio": "HH : SERNA REYES",
+                        "estadoembarque": "02"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "CAPTADORA SANTA CATARINA, N.L.",
+                        "fecha": "JUEVES 07 DE MARZO DEL 2024 19:11 hrs.",
+                        "fecha_sin_dia": "07 DE MARZO DEL 2024 19:11 hrs.",
+                        "fecha_corta": "07\/03\/2024",
+                        "hora": "19:11",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "R2899",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "ARRIBO DE VIAJE",
+                        "sucursal": "GUADALAJARA, JAL.",
+                        "fecha": "VIERNES 08 DE MARZO DEL 2024 10:52 hrs.",
+                        "fecha_sin_dia": "08 DE MARZO DEL 2024 10:52 hrs.",
+                        "fecha_corta": "08\/03\/2024",
+                        "hora": "10:52",
+                        "entrega": "ARRIBO DE VIAJE",
+                        "recibio": "X",
+                        "estadoembarque": "04"
+                    },
+                    {
+                        "estado": "RECIBIDO EN BODEGA DE REPARTO",
+                        "sucursal": "GUADALAJARA, JAL.",
+                        "fecha": "VIERNES 08 DE MARZO DEL 2024 11:07 hrs.",
+                        "fecha_sin_dia": "08 DE MARZO DEL 2024 11:07 hrs.",
+                        "fecha_corta": "08\/03\/2024",
+                        "hora": "11:07",
+                        "entrega": "RECIBIDO EN BODEGA DE REPARTO",
+                        "recibio": "HH : RAMOS PEREZ",
+                        "estadoembarque": "05"
+                    },
+                    {
+                        "estado": "CITA PROGRAMADA",
+                        "sucursal": "GUADALAJARA, JAL.",
+                        "fecha": "VIERNES 08 DE MARZO DEL 2024 11:11 hrs.",
+                        "fecha_sin_dia": "08 DE MARZO DEL 2024 11:11 hrs.",
+                        "fecha_corta": "08\/03\/2024",
+                        "hora": "11:11",
+                        "entrega": "CITA PROGRAMADA",
+                        "recibio": "Cita : 08 MAR 2024\r\nProgramada : JUEVES 14 MAR 2024 11:11 hrs.",
+                        "estadoembarque": "18"
+                    },
+                    {
+                        "estado": "DESPACHADO PARA ENTREGA DOMICI",
+                        "sucursal": "GUADALAJARA, JAL.",
+                        "fecha": "LUNES 11 DE MARZO DEL 2024 09:10 hrs.",
+                        "fecha_sin_dia": "11 DE MARZO DEL 2024 09:10 hrs.",
+                        "fecha_corta": "11\/03\/2024",
+                        "hora": "09:10",
+                        "entrega": "DESPACHADO PARA ENTREGA DOMICI",
+                        "recibio": "FRANCISCO RAMON ROMO SOTELO",
+                        "estadoembarque": "06"
+                    },
+                    {
+                        "estado": "EMBARQUE ENTREGADO PARCIALMENT",
+                        "sucursal": "GUADALAJARA, JAL.",
+                        "fecha": "LUNES 11 DE MARZO DEL 2024 14:00 hrs.",
+                        "fecha_sin_dia": "11 DE MARZO DEL 2024 14:00 hrs.",
+                        "fecha_corta": "11\/03\/2024",
+                        "hora": "14:00",
+                        "entrega": "EMBARQUE ENTREGADO PARCIALMENT",
+                        "recibio": "Almacen",
+                        "estadoembarque": "08"
+                    },
+                    {
+                        "estado": "08",
+                        "sucursal": "GUADALAJARA, JAL.",
+                        "fecha": "JUEVES 14 DE MARZO DEL 2024 14:00 hrs.",
+                        "fecha_sin_dia": "14 DE MARZO DEL 2024 14:00 hrs.",
+                        "fecha_corta": "14\/03\/2024",
+                        "hora": "14:00",
+                        "entrega": "EMBARQUE ENTREGADO",
+                        "recibio": "ALMACEN",
+                        "estadoembarque": "07"
+                    }
+                ],
+                "complementarios": [
+                    []
+                ],
+                "Error": []
+            }
+        },
+        "ECA00736128": {
+            "endpoint": "https:\/\/mi-api-tg-production.up.railway.app\/api.php?action=rastreo",
+            "metodo": "POST",
+            "body_enviado": {
+                "guia": "ECA00736128"
+            },
+            "http_status": 200,
+            "respuesta": {
+                "rastrear": "ECA00736128",
+                "talon": "ECA00736128",
+                "servicio": "Rastreo : Nacional y Pretalones",
+                "ultimo_estado": [
+                    {
+                        "estado": "CA",
+                        "sucursal": "TORREON, COAH. ESTADIO",
+                        "referencia": "XXXXXXXacta",
+                        "entrega": "EMBARQUE ENTREGADO",
+                        "fecha": "VIERNES 15 DE MAYO DEL 2026 10:46 hrs.",
+                        "fecha_sin_dia": "15 DE MAYO DEL 2026 10:46 hrs.",
+                        "fecha_corta": "15\/05\/2026",
+                        "hora": "10:46",
+                        "recibio": "Victor Medina",
+                        "estadoembarque": "07"
+                    }
+                ],
+                "detalle": [
+                    {
+                        "TALON": "ECA00736128",
+                        "FECHA_DE_EMBARQUE": "2026-05-13",
+                        "PESO": "1022",
+                        "PIEZAS": "1",
+                        "ESTADO_TALON": "",
+                        "RECIBIO": "Victor Medina ",
+                        "ORDEN_DOCUMENTACION": "58241688",
+                        "ORIGEN": "TERMINAL ECATEPEC, EDO. MEX.",
+                        "DESTINO": "TORREON, COAH. ESTADIO",
+                        "BANDERA_RECOLECCION": "N",
+                        "BANDERA_EAD": "S",
+                        "FACTURA": "00117936196",
+                        "TALON_COMPLEMENTARIO": null,
+                        "entrega_estimada_corta": "15\/05\/2026",
+                        "entrega_estimada": "VIERNES 15 DE MAYO DEL 2026"
+                    }
+                ],
+                "estados": [
+                    {
+                        "estado": "RECIBIDO EN BODEGA EMBARQUES",
+                        "sucursal": "ECATEPEC, EMEX.",
+                        "fecha": "MIÉRCOLES 13 DE MAYO DEL 2026 15:32 hrs.",
+                        "fecha_sin_dia": "13 DE MAYO DEL 2026 15:32 hrs.",
+                        "fecha_corta": "13\/05\/2026",
+                        "hora": "15:32",
+                        "entrega": "RECIBIDO EN BODEGA EMBARQUES",
+                        "recibio": "XX",
+                        "estadoembarque": "01"
+                    },
+                    {
+                        "estado": "REEMBARCADO",
+                        "sucursal": "ECATEPEC, EMEX.",
+                        "fecha": "MIÉRCOLES 13 DE MAYO DEL 2026 15:35 hrs.",
+                        "fecha_sin_dia": "13 DE MAYO DEL 2026 15:35 hrs.",
+                        "fecha_corta": "13\/05\/2026",
+                        "hora": "15:35",
+                        "entrega": "REEMBARCADO",
+                        "recibio": "X",
+                        "estadoembarque": "12"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "ECATEPEC, EMEX.",
+                        "fecha": "MIÉRCOLES 13 DE MAYO DEL 2026 16:39 hrs.",
+                        "fecha_sin_dia": "13 DE MAYO DEL 2026 16:39 hrs.",
+                        "fecha_corta": "13\/05\/2026",
+                        "hora": "16:39",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "R3243",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "ARRIBO DE VIAJE",
+                        "sucursal": "TEPOTZOTLAN, EMEX.",
+                        "fecha": "MIÉRCOLES 13 DE MAYO DEL 2026 18:32 hrs.",
+                        "fecha_sin_dia": "13 DE MAYO DEL 2026 18:32 hrs.",
+                        "fecha_corta": "13\/05\/2026",
+                        "hora": "18:32",
+                        "entrega": "ARRIBO DE VIAJE",
+                        "recibio": "X",
+                        "estadoembarque": "04"
+                    },
+                    {
+                        "estado": "BODEGA DE REEMBARQUES",
+                        "sucursal": "TEPOTZOTLAN, EMEX.",
+                        "fecha": "MIÉRCOLES 13 DE MAYO DEL 2026 18:46 hrs.",
+                        "fecha_sin_dia": "13 DE MAYO DEL 2026 18:46 hrs.",
+                        "fecha_corta": "13\/05\/2026",
+                        "hora": "18:46",
+                        "entrega": "BODEGA DE REEMBARQUES",
+                        "recibio": "HH : MARTINEZ TORAL",
+                        "estadoembarque": "13"
+                    },
+                    {
+                        "estado": "DESPACHADO A SUCURSAL",
+                        "sucursal": "TEPOTZOTLAN, EMEX.",
+                        "fecha": "MIÉRCOLES 13 DE MAYO DEL 2026 21:12 hrs.",
+                        "fecha_sin_dia": "13 DE MAYO DEL 2026 21:12 hrs.",
+                        "fecha_corta": "13\/05\/2026",
+                        "hora": "21:12",
+                        "entrega": "DESPACHADO A SUCURSAL",
+                        "recibio": "HH : RODRIGUEZ HERNANDEZ",
+                        "estadoembarque": "02"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "TEPOTZOTLAN, EMEX.",
+                        "fecha": "MIÉRCOLES 13 DE MAYO DEL 2026 23:31 hrs.",
+                        "fecha_sin_dia": "13 DE MAYO DEL 2026 23:31 hrs.",
+                        "fecha_corta": "13\/05\/2026",
+                        "hora": "23:31",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "R2522",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "ARRIBO DE VIAJE",
+                        "sucursal": "TORREON, COAH. ESTADIO",
+                        "fecha": "JUEVES 14 DE MAYO DEL 2026 13:38 hrs.",
+                        "fecha_sin_dia": "14 DE MAYO DEL 2026 13:38 hrs.",
+                        "fecha_corta": "14\/05\/2026",
+                        "hora": "13:38",
+                        "entrega": "ARRIBO DE VIAJE",
+                        "recibio": "X",
+                        "estadoembarque": "04"
+                    },
+                    {
+                        "estado": "RECIBIDO EN BODEGA DE REPARTO",
+                        "sucursal": "TORREON, COAH. ESTADIO",
+                        "fecha": "JUEVES 14 DE MAYO DEL 2026 14:53 hrs.",
+                        "fecha_sin_dia": "14 DE MAYO DEL 2026 14:53 hrs.",
+                        "fecha_corta": "14\/05\/2026",
+                        "hora": "14:53",
+                        "entrega": "RECIBIDO EN BODEGA DE REPARTO",
+                        "recibio": "HH : MONREAL MADERA",
+                        "estadoembarque": "05"
+                    },
+                    {
+                        "estado": "DESPACHADO PARA ENTREGA DOMICI",
+                        "sucursal": "TORREON, COAH. ESTADIO",
+                        "fecha": "JUEVES 14 DE MAYO DEL 2026 15:52 hrs.",
+                        "fecha_sin_dia": "14 DE MAYO DEL 2026 15:52 hrs.",
+                        "fecha_corta": "14\/05\/2026",
+                        "hora": "15:52",
+                        "entrega": "DESPACHADO PARA ENTREGA DOMICI",
+                        "recibio": "EDGAR GUILLERMO LUNA SALAZAR\/JUAN ALBERTO MACIAS AVALOS",
+                        "estadoembarque": "06"
+                    },
+                    {
+                        "estado": "DOMICILIO VISITADO CLIENTE NO RECIBIÓ EAD",
+                        "sucursal": "TORREON, COAH. ESTADIO",
+                        "fecha": "JUEVES 14 DE MAYO DEL 2026 18:05 hrs.",
+                        "fecha_sin_dia": "14 DE MAYO DEL 2026 18:05 hrs.",
+                        "fecha_corta": "14\/05\/2026",
+                        "hora": "18:05",
+                        "entrega": "DOMICILIO VISITADO CLIENTE NO RECIBIÓ EAD",
+                        "recibio": "ESTADO REGISTRADO DESDE ULTIMA MILLA",
+                        "estadoembarque": "CA"
+                    },
+                    {
+                        "estado": "REINGRESO BODEGA DE REPARTO",
+                        "sucursal": "TORREON, COAH. ESTADIO",
+                        "fecha": "VIERNES 15 DE MAYO DEL 2026 09:55 hrs.",
+                        "fecha_sin_dia": "15 DE MAYO DEL 2026 09:55 hrs.",
+                        "fecha_corta": "15\/05\/2026",
+                        "hora": "09:55",
+                        "entrega": "REINGRESO BODEGA DE REPARTO",
+                        "recibio": "X",
+                        "estadoembarque": "11"
+                    },
+                    {
+                        "estado": "DESPACHADO PARA ENTREGA DOMICI",
+                        "sucursal": "TORREON, COAH. ESTADIO",
+                        "fecha": "VIERNES 15 DE MAYO DEL 2026 10:42 hrs.",
+                        "fecha_sin_dia": "15 DE MAYO DEL 2026 10:42 hrs.",
+                        "fecha_corta": "15\/05\/2026",
+                        "hora": "10:42",
+                        "entrega": "DESPACHADO PARA ENTREGA DOMICI",
+                        "recibio": "EDGAR GUILLERMO LUNA SALAZAR\/JUAN ALBERTO MACIAS AVALOS",
+                        "estadoembarque": "06"
+                    },
+                    {
+                        "estado": "CA",
+                        "sucursal": "TORREON, COAH. ESTADIO",
+                        "fecha": "VIERNES 15 DE MAYO DEL 2026 10:46 hrs.",
+                        "fecha_sin_dia": "15 DE MAYO DEL 2026 10:46 hrs.",
+                        "fecha_corta": "15\/05\/2026",
+                        "hora": "10:46",
+                        "entrega": "EMBARQUE ENTREGADO",
+                        "recibio": "Victor Medina",
+                        "estadoembarque": "07"
+                    }
+                ],
+                "complementarios": [
+                    []
+                ],
+                "Error": []
+            }
+        },
+        "PAZ00065909": {
+            "endpoint": "https:\/\/mi-api-tg-production.up.railway.app\/api.php?action=rastreo",
+            "metodo": "POST",
+            "body_enviado": {
+                "guia": "PAZ00065909"
+            },
+            "http_status": 200,
+            "respuesta": {
+                "rastrear": "PAZ00065909",
+                "talon": "PAZ00065909",
+                "servicio": "Rastreo : Nacional y Pretalones",
+                "ultimo_estado": [
+                    {
+                        "estado": "D5",
+                        "sucursal": "PUEBLA, PUE.",
+                        "referencia": "XXXXXXX0000",
+                        "entrega": "CREDENCIAL ELECTOR",
+                        "fecha": "LUNES 05 DE AGOSTO DEL 2024 18:26 hrs.",
+                        "fecha_sin_dia": "05 DE AGOSTO DEL 2024 18:26 hrs.",
+                        "fecha_corta": "05\/08\/2024",
+                        "hora": "18:26",
+                        "recibio": "Maricruz Gordillo",
+                        "estadoembarque": "07"
+                    }
+                ],
+                "detalle": [
+                    {
+                        "TALON": "PAZ00065909",
+                        "FECHA_DE_EMBARQUE": "2024-07-29",
+                        "PESO": "20",
+                        "PIEZAS": "1",
+                        "ESTADO_TALON": "",
+                        "RECIBIO": "Maricruz Gordillo ",
+                        "ORDEN_DOCUMENTACION": "49045438",
+                        "ORIGEN": "LA PAZ, B.C.S.",
+                        "DESTINO": "PUEBLA, PUE.",
+                        "BANDERA_RECOLECCION": "N",
+                        "BANDERA_EAD": "S",
+                        "FACTURA": "00084496318",
+                        "TALON_COMPLEMENTARIO": null,
+                        "entrega_estimada_corta": "05\/08\/2024",
+                        "entrega_estimada": "LUNES 05 DE AGOSTO DEL 2024"
+                    }
+                ],
+                "estados": [
+                    {
+                        "estado": "RECIBIDO EN BODEGA EMBARQUES",
+                        "sucursal": "LA PAZ, BCS.",
+                        "fecha": "LUNES 29 DE JULIO DEL 2024 14:58 hrs.",
+                        "fecha_sin_dia": "29 DE JULIO DEL 2024 14:58 hrs.",
+                        "fecha_corta": "29\/07\/2024",
+                        "hora": "14:58",
+                        "entrega": "RECIBIDO EN BODEGA EMBARQUES",
+                        "recibio": "XX",
+                        "estadoembarque": "01"
+                    },
+                    {
+                        "estado": "REEMBARCADO",
+                        "sucursal": "LA PAZ, BCS.",
+                        "fecha": "LUNES 29 DE JULIO DEL 2024 18:00 hrs.",
+                        "fecha_sin_dia": "29 DE JULIO DEL 2024 18:00 hrs.",
+                        "fecha_corta": "29\/07\/2024",
+                        "hora": "18:00",
+                        "entrega": "REEMBARCADO",
+                        "recibio": "X",
+                        "estadoembarque": "12"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "LA PAZ, BCS.",
+                        "fecha": "MARTES 30 DE JULIO DEL 2024 05:11 hrs.",
+                        "fecha_sin_dia": "30 DE JULIO DEL 2024 05:11 hrs.",
+                        "fecha_corta": "30\/07\/2024",
+                        "hora": "05:11",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "X",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "LA PAZ, BCS.",
+                        "fecha": "MARTES 30 DE JULIO DEL 2024 05:11 hrs.",
+                        "fecha_sin_dia": "30 DE JULIO DEL 2024 05:11 hrs.",
+                        "fecha_corta": "30\/07\/2024",
+                        "hora": "05:11",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "SE BORRO LA SALIDA DEL VIAJE (GT)",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "LA PAZ, BCS.",
+                        "fecha": "MARTES 30 DE JULIO DEL 2024 11:50 hrs.",
+                        "fecha_sin_dia": "30 DE JULIO DEL 2024 11:50 hrs.",
+                        "fecha_corta": "30\/07\/2024",
+                        "hora": "11:50",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "X",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "AFECTACION POR FERRY",
+                        "sucursal": "MATRIZ",
+                        "fecha": "MIÉRCOLES 31 DE JULIO DEL 2024 11:27 hrs.",
+                        "fecha_sin_dia": "31 DE JULIO DEL 2024 11:27 hrs.",
+                        "fecha_corta": "31\/07\/2024",
+                        "hora": "11:27",
+                        "entrega": "AFECTACION POR FERRY",
+                        "recibio": "AFECTACION POR FERRY",
+                        "estadoembarque": "D5"
+                    },
+                    {
+                        "estado": "ARRIBO DE VIAJE",
+                        "sucursal": "LOS MOCHIS, SIN.",
+                        "fecha": "JUEVES 01 DE AGOSTO DEL 2024 01:31 hrs.",
+                        "fecha_sin_dia": "01 DE AGOSTO DEL 2024 01:31 hrs.",
+                        "fecha_corta": "01\/08\/2024",
+                        "hora": "01:31",
+                        "entrega": "ARRIBO DE VIAJE",
+                        "recibio": "X",
+                        "estadoembarque": "04"
+                    },
+                    {
+                        "estado": "BODEGA DE REEMBARQUES",
+                        "sucursal": "LOS MOCHIS, SIN.",
+                        "fecha": "JUEVES 01 DE AGOSTO DEL 2024 01:33 hrs.",
+                        "fecha_sin_dia": "01 DE AGOSTO DEL 2024 01:33 hrs.",
+                        "fecha_corta": "01\/08\/2024",
+                        "hora": "01:33",
+                        "entrega": "BODEGA DE REEMBARQUES",
+                        "recibio": "HH : CARRAZCO TORRES",
+                        "estadoembarque": "13"
+                    },
+                    {
+                        "estado": "REEMBARCADO [N]",
+                        "sucursal": "LOS MOCHIS, SIN.",
+                        "fecha": "JUEVES 01 DE AGOSTO DEL 2024 18:17 hrs.",
+                        "fecha_sin_dia": "01 DE AGOSTO DEL 2024 18:17 hrs.",
+                        "fecha_corta": "01\/08\/2024",
+                        "hora": "18:17",
+                        "entrega": "REEMBARCADO [N]",
+                        "recibio": "X",
+                        "estadoembarque": "14"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "LOS MOCHIS, SIN.",
+                        "fecha": "JUEVES 01 DE AGOSTO DEL 2024 18:37 hrs.",
+                        "fecha_sin_dia": "01 DE AGOSTO DEL 2024 18:37 hrs.",
+                        "fecha_corta": "01\/08\/2024",
+                        "hora": "18:37",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "R3493",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "ARRIBO DE VIAJE",
+                        "sucursal": "GONZALEZ GALLO",
+                        "fecha": "VIERNES 02 DE AGOSTO DEL 2024 12:10 hrs.",
+                        "fecha_sin_dia": "02 DE AGOSTO DEL 2024 12:10 hrs.",
+                        "fecha_corta": "02\/08\/2024",
+                        "hora": "12:10",
+                        "entrega": "ARRIBO DE VIAJE",
+                        "recibio": "X",
+                        "estadoembarque": "04"
+                    },
+                    {
+                        "estado": "BODEGA DE REEMBARQUES",
+                        "sucursal": "GONZALEZ GALLO",
+                        "fecha": "VIERNES 02 DE AGOSTO DEL 2024 12:13 hrs.",
+                        "fecha_sin_dia": "02 DE AGOSTO DEL 2024 12:13 hrs.",
+                        "fecha_corta": "02\/08\/2024",
+                        "hora": "12:13",
+                        "entrega": "BODEGA DE REEMBARQUES",
+                        "recibio": "HH : LARA SANCHEZ",
+                        "estadoembarque": "13"
+                    },
+                    {
+                        "estado": "DESPACHADO A SUCURSAL",
+                        "sucursal": "GONZALEZ GALLO",
+                        "fecha": "VIERNES 02 DE AGOSTO DEL 2024 22:14 hrs.",
+                        "fecha_sin_dia": "02 DE AGOSTO DEL 2024 22:14 hrs.",
+                        "fecha_corta": "02\/08\/2024",
+                        "hora": "22:14",
+                        "entrega": "DESPACHADO A SUCURSAL",
+                        "recibio": "AI_DETALLE_GUIAS",
+                        "estadoembarque": "02"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "GONZALEZ GALLO",
+                        "fecha": "VIERNES 02 DE AGOSTO DEL 2024 22:28 hrs.",
+                        "fecha_sin_dia": "02 DE AGOSTO DEL 2024 22:28 hrs.",
+                        "fecha_corta": "02\/08\/2024",
+                        "hora": "22:28",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "R3091",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "ARRIBO DE VIAJE",
+                        "sucursal": "PUEBLA, PUE.",
+                        "fecha": "SÁBADO 03 DE AGOSTO DEL 2024 10:11 hrs.",
+                        "fecha_sin_dia": "03 DE AGOSTO DEL 2024 10:11 hrs.",
+                        "fecha_corta": "03\/08\/2024",
+                        "hora": "10:11",
+                        "entrega": "ARRIBO DE VIAJE",
+                        "recibio": "X",
+                        "estadoembarque": "04"
+                    },
+                    {
+                        "estado": "RECIBIDO EN BODEGA DE REPARTO",
+                        "sucursal": "PUEBLA, PUE.",
+                        "fecha": "SÁBADO 03 DE AGOSTO DEL 2024 15:20 hrs.",
+                        "fecha_sin_dia": "03 DE AGOSTO DEL 2024 15:20 hrs.",
+                        "fecha_corta": "03\/08\/2024",
+                        "hora": "15:20",
+                        "entrega": "RECIBIDO EN BODEGA DE REPARTO",
+                        "recibio": "AI_EMBARQUES_BODEGA_REPARTO",
+                        "estadoembarque": "05"
+                    },
+                    {
+                        "estado": "DESPACHADO PARA ENTREGA DOMICI",
+                        "sucursal": "PUEBLA, PUE.",
+                        "fecha": "LUNES 05 DE AGOSTO DEL 2024 10:30 hrs.",
+                        "fecha_sin_dia": "05 DE AGOSTO DEL 2024 10:30 hrs.",
+                        "fecha_corta": "05\/08\/2024",
+                        "hora": "10:30",
+                        "entrega": "DESPACHADO PARA ENTREGA DOMICI",
+                        "recibio": "JOSE GUSTAVO MORALES MARTINEZ\/SIN OPERADOR-SIN PROPIETARIO SIN OPERADOR-SIN PROP",
+                        "estadoembarque": "06"
+                    },
+                    {
+                        "estado": "D5",
+                        "sucursal": "PUEBLA, PUE.",
+                        "fecha": "LUNES 05 DE AGOSTO DEL 2024 18:26 hrs.",
+                        "fecha_sin_dia": "05 DE AGOSTO DEL 2024 18:26 hrs.",
+                        "fecha_corta": "05\/08\/2024",
+                        "hora": "18:26",
+                        "entrega": "CREDENCIAL ELECTOR",
+                        "recibio": "Maricruz Gordillo",
+                        "estadoembarque": "07"
+                    }
+                ],
+                "complementarios": [
+                    []
+                ],
+                "Error": []
+            }
+        },
+        "HMS00208735": {
+            "endpoint": "https:\/\/mi-api-tg-production.up.railway.app\/api.php?action=rastreo",
+            "metodo": "POST",
+            "body_enviado": {
+                "guia": "HMS00208735"
+            },
+            "http_status": 200,
+            "respuesta": {
+                "rastrear": "HMS00208735",
+                "talon": "HMS00208735",
+                "servicio": "Rastreo : Nacional y Pretalones",
+                "ultimo_estado": [
+                    {
+                        "estado": "CANCELADO",
+                        "sucursal": "HERMOSILLO, SON.",
+                        "referencia": "HMS00023037",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "fecha": "MARTES 31 DE MAYO DEL 2022 18:42 hrs.",
+                        "fecha_sin_dia": "31 DE MAYO DEL 2022 18:42 hrs.",
+                        "fecha_corta": "31\/05\/2022",
+                        "hora": "18:42",
+                        "recibio": "SE BORRO LA SALIDA DEL VIAJE (GV)",
+                        "estadoembarque": "03",
+                        "entrega_estimada_corta": "",
+                        "entrega_estimada": ""
+                    }
+                ],
+                "detalle": [
+                    {
+                        "TALON": "HMS00208735",
+                        "FECHA_DE_EMBARQUE": "2022-05-30",
+                        "PESO": "30000",
+                        "PIEZAS": "1",
+                        "ESTADO_TALON": "CANCELADO",
+                        "RECIBIO": null,
+                        "ORDEN_DOCUMENTACION": "00000000",
+                        "ORIGEN": "HERMOSILLO, SON.",
+                        "DESTINO": "MERIDA, YUC.",
+                        "BANDERA_RECOLECCION": "N",
+                        "BANDERA_EAD": "O",
+                        "FACTURA": "00048391917",
+                        "TALON_COMPLEMENTARIO": null,
+                        "entrega_estimada_corta": "",
+                        "entrega_estimada": ""
+                    }
+                ],
+                "estados": [
+                    {
+                        "estado": "RECIBIDO EN BODEGA EMBARQUES",
+                        "sucursal": "HERMOSILLO, SON.",
+                        "fecha": "LUNES 30 DE MAYO DEL 2022 18:17 hrs.",
+                        "fecha_sin_dia": "30 DE MAYO DEL 2022 18:17 hrs.",
+                        "fecha_corta": "30\/05\/2022",
+                        "hora": "18:17",
+                        "entrega": "RECIBIDO EN BODEGA EMBARQUES",
+                        "recibio": "XX",
+                        "estadoembarque": "01"
+                    },
+                    {
+                        "estado": "DESPACHADO A SUCURSAL",
+                        "sucursal": "HERMOSILLO, SON.",
+                        "fecha": "LUNES 30 DE MAYO DEL 2022 18:19 hrs.",
+                        "fecha_sin_dia": "30 DE MAYO DEL 2022 18:19 hrs.",
+                        "fecha_corta": "30\/05\/2022",
+                        "hora": "18:19",
+                        "entrega": "DESPACHADO A SUCURSAL",
+                        "recibio": "AI_DETALLE_GUIAS",
+                        "estadoembarque": "02"
+                    },
+                    {
+                        "estado": "RECIBIDO EN BODEGA EMBARQUES",
+                        "sucursal": "HERMOSILLO, SON.",
+                        "fecha": "LUNES 30 DE MAYO DEL 2022 18:19 hrs.",
+                        "fecha_sin_dia": "30 DE MAYO DEL 2022 18:19 hrs.",
+                        "fecha_corta": "30\/05\/2022",
+                        "hora": "18:19",
+                        "entrega": "RECIBIDO EN BODEGA EMBARQUES",
+                        "recibio": "SE BORRO EL TALON DE LA GUIA",
+                        "estadoembarque": "01"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "HERMOSILLO, SON.",
+                        "fecha": "MARTES 31 DE MAYO DEL 2022 18:42 hrs.",
+                        "fecha_sin_dia": "31 DE MAYO DEL 2022 18:42 hrs.",
+                        "fecha_corta": "31\/05\/2022",
+                        "hora": "18:42",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "R2218",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "TRANSITO ENTRE SUCURSALES",
+                        "sucursal": "HERMOSILLO, SON.",
+                        "fecha": "MARTES 31 DE MAYO DEL 2022 18:42 hrs.",
+                        "fecha_sin_dia": "31 DE MAYO DEL 2022 18:42 hrs.",
+                        "fecha_corta": "31\/05\/2022",
+                        "hora": "18:42",
+                        "entrega": "TRANSITO ENTRE SUCURSALES",
+                        "recibio": "SE BORRO LA SALIDA DEL VIAJE (GV)",
+                        "estadoembarque": "03"
+                    },
+                    {
+                        "estado": "CANCELADO",
+                        "sucursal": " ",
+                        "fecha": "JUEVES    21  DE JULIO      DEL 2022",
+                        "fecha_sin_dia": "21  DE JULIO      DEL 2022",
+                        "fecha_corta": "21\/07\/2022",
+                        "hora": null,
+                        "entrega": "CANCELADA"
+                    }
+                ],
+                "complementarios": [
+                    []
+                ],
+                "Error": []
+            }
+        }
+    }
+}
