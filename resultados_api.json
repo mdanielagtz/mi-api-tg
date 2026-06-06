@@ -1,5 +1,5 @@
 {
-    "generado_en": "06-06-2026 04:37:11",
+    "generado_en": "06-06-2026 05:12:47",
     "api_url": "https:\/\/mi-api-tg-production.up.railway.app",
     "ApiToken": {
         "endpoint": "https:\/\/mi-api-tg-production.up.railway.app\/api.php?action=login",
@@ -10,9 +10,9 @@
         },
         "http_status": 200,
         "respuesta": {
-            "token": "eyJ1c3IiOiJldmFsdWFkb3IiLCJpYXQiOjE3ODA3MjA2MjcsImV4cCI6MTc4MDcyNDIyN30=.7c4a6597f667882a20445d82ebe4d53c11b53f376ab81920d1c6ffe78ab0b096",
+            "token": "eyJ1c3IiOiJldmFsdWFkb3IiLCJpYXQiOjE3ODA3MjI3NjQsImV4cCI6MTc4MDcyNjM2NH0=.2af64c076a5214c201da701e217267b6361ef0431fd28f09ab03ba903430ef1b",
             "tipo": "Bearer",
-            "emitido": "06-06-2026 04:37:07",
+            "emitido": "06-06-2026 05:12:44",
             "expira_en": "3600 segundos (60 minutos)",
             "uso": "Agrega este token en el header Authorization: Bearer {token} para consumir ?action=rastreo"
         }
@@ -141,7 +141,7 @@
                         "estadoembarque": "06"
                     },
                     {
-                        "estado": "EMBARQUE ENTREGADO PARCIALMENT",
+                        "estado": "08",
                         "sucursal": "GUADALAJARA, JAL.",
                         "fecha": "LUNES 11 DE MARZO DEL 2024 14:00 hrs.",
                         "fecha_sin_dia": "11 DE MARZO DEL 2024 14:00 hrs.",
@@ -150,17 +150,6 @@
                         "entrega": "EMBARQUE ENTREGADO PARCIALMENT",
                         "recibio": "Almacen",
                         "estadoembarque": "08"
-                    },
-                    {
-                        "estado": "08",
-                        "sucursal": "GUADALAJARA, JAL.",
-                        "fecha": "JUEVES 14 DE MARZO DEL 2024 14:00 hrs.",
-                        "fecha_sin_dia": "14 DE MARZO DEL 2024 14:00 hrs.",
-                        "fecha_corta": "14\/03\/2024",
-                        "hora": "14:00",
-                        "entrega": "EMBARQUE ENTREGADO",
-                        "recibio": "ALMACEN",
-                        "estadoembarque": "07"
                     }
                 ],
                 "complementarios": [
@@ -325,7 +314,7 @@
                         "estadoembarque": "06"
                     },
                     {
-                        "estado": "DOMICILIO VISITADO CLIENTE NO RECIBIÓ EAD",
+                        "estado": "CA",
                         "sucursal": "TORREON, COAH. ESTADIO",
                         "fecha": "JUEVES 14 DE MAYO DEL 2026 18:05 hrs.",
                         "fecha_sin_dia": "14 DE MAYO DEL 2026 18:05 hrs.",
@@ -334,39 +323,6 @@
                         "entrega": "DOMICILIO VISITADO CLIENTE NO RECIBIÓ EAD",
                         "recibio": "ESTADO REGISTRADO DESDE ULTIMA MILLA",
                         "estadoembarque": "CA"
-                    },
-                    {
-                        "estado": "REINGRESO BODEGA DE REPARTO",
-                        "sucursal": "TORREON, COAH. ESTADIO",
-                        "fecha": "VIERNES 15 DE MAYO DEL 2026 09:55 hrs.",
-                        "fecha_sin_dia": "15 DE MAYO DEL 2026 09:55 hrs.",
-                        "fecha_corta": "15\/05\/2026",
-                        "hora": "09:55",
-                        "entrega": "REINGRESO BODEGA DE REPARTO",
-                        "recibio": "X",
-                        "estadoembarque": "11"
-                    },
-                    {
-                        "estado": "DESPACHADO PARA ENTREGA DOMICI",
-                        "sucursal": "TORREON, COAH. ESTADIO",
-                        "fecha": "VIERNES 15 DE MAYO DEL 2026 10:42 hrs.",
-                        "fecha_sin_dia": "15 DE MAYO DEL 2026 10:42 hrs.",
-                        "fecha_corta": "15\/05\/2026",
-                        "hora": "10:42",
-                        "entrega": "DESPACHADO PARA ENTREGA DOMICI",
-                        "recibio": "EDGAR GUILLERMO LUNA SALAZAR\/JUAN ALBERTO MACIAS AVALOS",
-                        "estadoembarque": "06"
-                    },
-                    {
-                        "estado": "CA",
-                        "sucursal": "TORREON, COAH. ESTADIO",
-                        "fecha": "VIERNES 15 DE MAYO DEL 2026 10:46 hrs.",
-                        "fecha_sin_dia": "15 DE MAYO DEL 2026 10:46 hrs.",
-                        "fecha_corta": "15\/05\/2026",
-                        "hora": "10:46",
-                        "entrega": "EMBARQUE ENTREGADO",
-                        "recibio": "Victor Medina",
-                        "estadoembarque": "07"
                     }
                 ],
                 "complementarios": [
@@ -476,7 +432,7 @@
                         "estadoembarque": "03"
                     },
                     {
-                        "estado": "AFECTACION POR FERRY",
+                        "estado": "D5",
                         "sucursal": "MATRIZ",
                         "fecha": "MIÉRCOLES 31 DE JULIO DEL 2024 11:27 hrs.",
                         "fecha_sin_dia": "31 DE JULIO DEL 2024 11:27 hrs.",
@@ -485,138 +441,6 @@
                         "entrega": "AFECTACION POR FERRY",
                         "recibio": "AFECTACION POR FERRY",
                         "estadoembarque": "D5"
-                    },
-                    {
-                        "estado": "ARRIBO DE VIAJE",
-                        "sucursal": "LOS MOCHIS, SIN.",
-                        "fecha": "JUEVES 01 DE AGOSTO DEL 2024 01:31 hrs.",
-                        "fecha_sin_dia": "01 DE AGOSTO DEL 2024 01:31 hrs.",
-                        "fecha_corta": "01\/08\/2024",
-                        "hora": "01:31",
-                        "entrega": "ARRIBO DE VIAJE",
-                        "recibio": "X",
-                        "estadoembarque": "04"
-                    },
-                    {
-                        "estado": "BODEGA DE REEMBARQUES",
-                        "sucursal": "LOS MOCHIS, SIN.",
-                        "fecha": "JUEVES 01 DE AGOSTO DEL 2024 01:33 hrs.",
-                        "fecha_sin_dia": "01 DE AGOSTO DEL 2024 01:33 hrs.",
-                        "fecha_corta": "01\/08\/2024",
-                        "hora": "01:33",
-                        "entrega": "BODEGA DE REEMBARQUES",
-                        "recibio": "HH : CARRAZCO TORRES",
-                        "estadoembarque": "13"
-                    },
-                    {
-                        "estado": "REEMBARCADO [N]",
-                        "sucursal": "LOS MOCHIS, SIN.",
-                        "fecha": "JUEVES 01 DE AGOSTO DEL 2024 18:17 hrs.",
-                        "fecha_sin_dia": "01 DE AGOSTO DEL 2024 18:17 hrs.",
-                        "fecha_corta": "01\/08\/2024",
-                        "hora": "18:17",
-                        "entrega": "REEMBARCADO [N]",
-                        "recibio": "X",
-                        "estadoembarque": "14"
-                    },
-                    {
-                        "estado": "TRANSITO ENTRE SUCURSALES",
-                        "sucursal": "LOS MOCHIS, SIN.",
-                        "fecha": "JUEVES 01 DE AGOSTO DEL 2024 18:37 hrs.",
-                        "fecha_sin_dia": "01 DE AGOSTO DEL 2024 18:37 hrs.",
-                        "fecha_corta": "01\/08\/2024",
-                        "hora": "18:37",
-                        "entrega": "TRANSITO ENTRE SUCURSALES",
-                        "recibio": "R3493",
-                        "estadoembarque": "03"
-                    },
-                    {
-                        "estado": "ARRIBO DE VIAJE",
-                        "sucursal": "GONZALEZ GALLO",
-                        "fecha": "VIERNES 02 DE AGOSTO DEL 2024 12:10 hrs.",
-                        "fecha_sin_dia": "02 DE AGOSTO DEL 2024 12:10 hrs.",
-                        "fecha_corta": "02\/08\/2024",
-                        "hora": "12:10",
-                        "entrega": "ARRIBO DE VIAJE",
-                        "recibio": "X",
-                        "estadoembarque": "04"
-                    },
-                    {
-                        "estado": "BODEGA DE REEMBARQUES",
-                        "sucursal": "GONZALEZ GALLO",
-                        "fecha": "VIERNES 02 DE AGOSTO DEL 2024 12:13 hrs.",
-                        "fecha_sin_dia": "02 DE AGOSTO DEL 2024 12:13 hrs.",
-                        "fecha_corta": "02\/08\/2024",
-                        "hora": "12:13",
-                        "entrega": "BODEGA DE REEMBARQUES",
-                        "recibio": "HH : LARA SANCHEZ",
-                        "estadoembarque": "13"
-                    },
-                    {
-                        "estado": "DESPACHADO A SUCURSAL",
-                        "sucursal": "GONZALEZ GALLO",
-                        "fecha": "VIERNES 02 DE AGOSTO DEL 2024 22:14 hrs.",
-                        "fecha_sin_dia": "02 DE AGOSTO DEL 2024 22:14 hrs.",
-                        "fecha_corta": "02\/08\/2024",
-                        "hora": "22:14",
-                        "entrega": "DESPACHADO A SUCURSAL",
-                        "recibio": "AI_DETALLE_GUIAS",
-                        "estadoembarque": "02"
-                    },
-                    {
-                        "estado": "TRANSITO ENTRE SUCURSALES",
-                        "sucursal": "GONZALEZ GALLO",
-                        "fecha": "VIERNES 02 DE AGOSTO DEL 2024 22:28 hrs.",
-                        "fecha_sin_dia": "02 DE AGOSTO DEL 2024 22:28 hrs.",
-                        "fecha_corta": "02\/08\/2024",
-                        "hora": "22:28",
-                        "entrega": "TRANSITO ENTRE SUCURSALES",
-                        "recibio": "R3091",
-                        "estadoembarque": "03"
-                    },
-                    {
-                        "estado": "ARRIBO DE VIAJE",
-                        "sucursal": "PUEBLA, PUE.",
-                        "fecha": "SÁBADO 03 DE AGOSTO DEL 2024 10:11 hrs.",
-                        "fecha_sin_dia": "03 DE AGOSTO DEL 2024 10:11 hrs.",
-                        "fecha_corta": "03\/08\/2024",
-                        "hora": "10:11",
-                        "entrega": "ARRIBO DE VIAJE",
-                        "recibio": "X",
-                        "estadoembarque": "04"
-                    },
-                    {
-                        "estado": "RECIBIDO EN BODEGA DE REPARTO",
-                        "sucursal": "PUEBLA, PUE.",
-                        "fecha": "SÁBADO 03 DE AGOSTO DEL 2024 15:20 hrs.",
-                        "fecha_sin_dia": "03 DE AGOSTO DEL 2024 15:20 hrs.",
-                        "fecha_corta": "03\/08\/2024",
-                        "hora": "15:20",
-                        "entrega": "RECIBIDO EN BODEGA DE REPARTO",
-                        "recibio": "AI_EMBARQUES_BODEGA_REPARTO",
-                        "estadoembarque": "05"
-                    },
-                    {
-                        "estado": "DESPACHADO PARA ENTREGA DOMICI",
-                        "sucursal": "PUEBLA, PUE.",
-                        "fecha": "LUNES 05 DE AGOSTO DEL 2024 10:30 hrs.",
-                        "fecha_sin_dia": "05 DE AGOSTO DEL 2024 10:30 hrs.",
-                        "fecha_corta": "05\/08\/2024",
-                        "hora": "10:30",
-                        "entrega": "DESPACHADO PARA ENTREGA DOMICI",
-                        "recibio": "JOSE GUSTAVO MORALES MARTINEZ\/SIN OPERADOR-SIN PROPIETARIO SIN OPERADOR-SIN PROP",
-                        "estadoembarque": "06"
-                    },
-                    {
-                        "estado": "D5",
-                        "sucursal": "PUEBLA, PUE.",
-                        "fecha": "LUNES 05 DE AGOSTO DEL 2024 18:26 hrs.",
-                        "fecha_sin_dia": "05 DE AGOSTO DEL 2024 18:26 hrs.",
-                        "fecha_corta": "05\/08\/2024",
-                        "hora": "18:26",
-                        "entrega": "CREDENCIAL ELECTOR",
-                        "recibio": "Maricruz Gordillo",
-                        "estadoembarque": "07"
                     }
                 ],
                 "complementarios": [
