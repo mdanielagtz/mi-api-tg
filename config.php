@@ -10,7 +10,7 @@ define('TG_ACCESS_PASS', 'VkZWR1ZVMUVRWGROUkVGM1RVUkNSRlF3TlZWVmEwWlVVbU5QVWxGVl
 
 // ─── CREDENCIALES DE TU API ───────────────────────────────────────────────────
 // El evaluador usa estas para hacer login en TU API y obtener su token
-define('MI_API_USUARIO',  'christian');
+define('MI_API_USUARIO',  'evaluador');
 define('MI_API_PASSWORD', 'tresguerras2026');
 
 // ─── DURACIÓN DEL TOKEN DE TU API (segundos) ─────────────────────────────────
