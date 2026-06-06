@@ -1,5 +1,3 @@
-# mi-api-tg
-
 # Tresguerras Web Service Integration
 
 Proyecto desarrollado en PHP para el consumo de los servicios web de Tresguerras.
