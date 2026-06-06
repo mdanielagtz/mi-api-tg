@@ -193,23 +193,25 @@ function filtrarEstados(array $estados, string $estadoObjetivo): array
 {
     $filtrados = [];
  
-    foreach ($estados as $estado) {
-        $filtrados[] = $estado;
-        if (isset($estado['estado']) && $estado['estado'] === $estadoObjetivo) {
+    foreach ($estados as $item) {
+        $filtrados[] = $item;
+ 
+        $codigoItem = $item['estadoembarque'] ?? $item['estado'] ?? '';
+ 
+        if ((string)$codigoItem === (string)$estadoObjetivo) {
             break;
         }
     }
  
-    // Si el objetivo no estaba en el historial, forzarlo en el último elemento
+    // Forzar el código objetivo en el campo 'estado' del último elemento
     if (!empty($filtrados)) {
         $key = array_key_last($filtrados);
-        if ($filtrados[$key]['estado'] !== $estadoObjetivo) {
-            $filtrados[$key]['estado'] = $estadoObjetivo;
-        }
+        $filtrados[$key]['estado'] = $estadoObjetivo;
     }
  
     return $filtrados;
 }
+ 
 
 /**
  * Extraer token del header Authorization: Bearer {token}
