@@ -161,14 +161,13 @@ function handleRastreo(): void
     // ── PASO 3: Filtrar historial hasta el estado objetivo ────────────────────
     $estadosFiltrados = filtrarEstados($data['estados'] ?? [], $estadoObjetivo);
  
-    // Forzar ultimo_estado al código objetivo
-    $ultimoEstado = [];
-    if (!empty($data['ultimo_estado']) && is_array($data['ultimo_estado'])) {
-    $ultimoEstado = end($data['ultimo_estado']);
-    }
-    // Forzar tanto estado como estadoembarque al código objetivo
-    $ultimoEstado['estado']        = $estadoObjetivo;
-    $ultimoEstado['estadoembarque'] = $estadoObjetivo;
+    // ultimo_estado = último elemento del historial ya filtrado
+$ultimoEstado = !empty($estadosFiltrados)
+    ? end($estadosFiltrados)
+    : [];
+
+$ultimoEstado['estado']         = $estadoObjetivo;
+$ultimoEstado['estadoembarque'] = $estadoObjetivo;
  
     // ── Construir y devolver respuesta ────────────────────────────────────────
     $respuesta = array_merge($data, [
