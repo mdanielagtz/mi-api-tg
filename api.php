@@ -164,9 +164,11 @@ function handleRastreo(): void
     // Forzar ultimo_estado al código objetivo
     $ultimoEstado = [];
     if (!empty($data['ultimo_estado']) && is_array($data['ultimo_estado'])) {
-        $ultimoEstado = end($data['ultimo_estado']);
+    $ultimoEstado = end($data['ultimo_estado']);
     }
-    $ultimoEstado['estado'] = $estadoObjetivo;
+    // Forzar tanto estado como estadoembarque al código objetivo
+    $ultimoEstado['estado']        = $estadoObjetivo;
+    $ultimoEstado['estadoembarque'] = $estadoObjetivo;
  
     // ── Construir y devolver respuesta ────────────────────────────────────────
     $respuesta = array_merge($data, [
