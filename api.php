@@ -203,11 +203,9 @@ function filtrarEstados(array $estados, string $estadoObjetivo): array
         }
     }
  
-    // Forzar el código objetivo en el campo 'estado' del último elemento
-    if (!empty($filtrados)) {
-        $key = array_key_last($filtrados);
-        $filtrados[$key]['estado'] = $estadoObjetivo;
-    }
+    // NO se sobreescribe el campo 'estado' — mantiene el texto original
+    // Solo cortamos el historial en el punto correcto
+ 
  
     return $filtrados;
 }
